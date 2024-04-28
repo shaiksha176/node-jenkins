@@ -12,7 +12,7 @@ app.use(cors("*"));
 app.get("/", (req, res) => {
   res
     .status(200)
-    .send({ message: "Welcome to the Node and jenkins Applicatin" });
+    .send({ message: "Welcome to the Node and jenkins Applicatin..." });
 });
 
 app.get("/status", (req, res) => {
